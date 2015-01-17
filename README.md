@@ -5,7 +5,7 @@ The file run_Analysis.R submitted in this folder does the following required by 
 First, it loads the libraries plyr, dplyr that are in focus in this course and the libraey utils
 If you don't already have these packages you must install them before running the script. 
 Second, the script prepares all necessary directories and downloads and unzips the primary dataset
-(Please not that during the script run the directory foton263tidy will be created. After you evaluate my effort
+(Please note that during the script run the directory foton263tidy will be created. After you evaluate my effort
 you can delete it).
 Then It reads also the column names from features.txt. The problem is that some column names are duplicates so 
 this is rectified before we assign them to the data.
