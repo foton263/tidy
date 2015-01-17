@@ -56,10 +56,10 @@ The processing requested on original dataset was :
 - the program will install the essential packages if they are not present in your system
 - then it will create a working subdirectory named foton263tidy/ within your working directory in your disk 
 (you can locate this by using getwd() afterwards...)
-- it will doenload the original dataset zip file and will unzip it
-- - it will process and gather the dataset into a dataframe discarding the intermediate dfs from memory
-- - it will then calculate the new dataset and will write it to the foton263tidy/tidy_dataset.txt file
-- 
+- it will download the original dataset zip file and will unzip it
+- it will process and gather the dataset into a dataframe discarding the intermediate dfs from memory
+- it will then calculate the new dataset and will write it to the foton263tidy/tidy_dataset.txt file
+ 
 #####  thank you for taking time to evaluate my work and may the R be with you...
 workdir
 
