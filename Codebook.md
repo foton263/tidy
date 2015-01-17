@@ -50,8 +50,7 @@ The processing requested on original dataset was :
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-
-### Variables 
+## How to run 
 source_url
 workdir
 
