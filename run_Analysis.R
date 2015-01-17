@@ -1,7 +1,7 @@
 ### Run Analysis on big data
-library(plyr) #load the select,filter mutate summarize library
+library(dplyr) #load the select,filter mutate summarize library
 library(tidyr) # load the gather separate spread extract library
-library(dplyr) # 
+library(plyr) # load the ddply function
 library(utils) # unzip read.table
 # the data source
 source_url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
