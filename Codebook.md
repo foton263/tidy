@@ -50,7 +50,16 @@ The processing requested on original dataset was :
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-## How to run 
-source_url
+## How to run run_Analysis.R
+- download this run_Analysis.R script
+- run line by line
+- the program will install the essential packages if they are not present in your system
+- then it will create a working subdirectory named foton263tidy/ within your working directory in your disk 
+(you can locate this by using getwd() afterwards...)
+- it will doenload the original dataset zip file and will unzip it
+- - it will process and gather the dataset into a dataframe discarding the intermediate dfs from memory
+- - it will then calculate the new dataset and will write it to the foton263tidy/tidy_dataset.txt file
+- 
+#####  thank you for taking time to evaluate my work and may the R be with you...
 workdir
 
