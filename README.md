@@ -8,6 +8,10 @@ Second, the script prepares all necessary directories and downloads and unzips t
 (Please note that during the script run the directory foton263tidy will be created. After you evaluate my effort
 you can delete it).
 Then It reads also the column names from features.txt. The problem is that some column names are duplicates so 
-this is rectified before we can assign them to the data frame we built. Why we need unique column names? It's because we want to use the select () verb to choose the columns we are interested by their name with the contains () inner function, at a later stage. Following, the train and test data frames are merged into one row-wise, we columnbind subjects and activities dataframe and we come up with a big dataframe to which we assign the unique columns names, using what we learned about dpyr we select the columns in interest
-finally, we use this dataframe to produce the tidy dataset comprising of mean values of locomotion charactristics of each subject grouped by activity per subject. The ddply function did the miracle... 
-#### May the R be with you!
+this is rectified before we can assign them to the data frame we built. Why we need unique column names? It's because we want to use the select () verb to choose the columns we are interested by their name with the contains () inner function, at a later stage. Following, the train and test data frames are merged into one row-wise, we columnbind subjects and activities dataframe and we come up with a big dataframe named :
+####combodf, 
+to which we assign the unique columns names, using what we learned about dpyr we select the columns in interest
+finally, we use this dataframe to produce the tidy dataset named :
+####tidedf
+comprising of mean values of locomotion charactristics of each subject grouped by activity per subject. The ddply function did the miracle... 
+##### May the R be with you!
