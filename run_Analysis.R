@@ -1,8 +1,18 @@
 ### Run Analysis on big data
-library(dplyr) #load the select,filter mutate summarize library
-library(tidyr) # load the gather separate spread extract library
-library(plyr) # load the ddply and rbind.fill function library
-library(utils) # unzip read.table
+## make sure necessary librariesare installed
+if (!require("dplyr")) {
+install.packages("dplyr")
+}
+if (!require("plyr")) {
+install.packages("plyr")
+}
+if (!require("tidyr")) {
+install.packages("tidyr")
+}
+require(dplyr) #load the select,filter mutate summarize library
+require(tidyr) # load the gather separate spread extract library
+require(plyr) # load the ddply and rbind.fill function library
+require(utils) # unzip read.table
 # the data source
 source_url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 workdir<-"foton263tidy" # project's directory
