@@ -11,4 +11,4 @@ Then It reads also the column names from features.txt. The problem is that some 
 this is rectified before we assign them to the data.
 The train and test data frames are merged into one row-wise, we columnbind subjects and activities dataframe and we come up with a big dataframe to which we assign the columns names. usign what we learned about dpyr we select the columns in interest
 finally, we use this dataframe to produce the tidy dataset comprising of mean values of locomotion charactristics of each subject grouped by activity per subject. The ddply function did the miracle... 
-*May the R be with you!
+### May the R be with you!
