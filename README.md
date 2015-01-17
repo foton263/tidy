@@ -1,6 +1,7 @@
 # tidy
-My Getting and Cleaning Data Course Project. Contains the files requested to be available here.
-The file run_Analysis.R submitted in this folder does the following required by the coutse project exercise.
+### My Getting and Cleaning Data Course Project. Contains the files requested to be available here.
+
+The file run_Analysis.R submitted in this folder does the following required by the coutse project exercise :
 First, it loads the libraries plyr, dplyr that are in focus in this course and the libraey utils
 If you don't already have these packages you must install them before running the script. 
 Second, the script prepares all necessary directories and downloads and unzips the primary dataset
