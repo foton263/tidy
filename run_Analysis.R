@@ -1,5 +1,6 @@
-### Run Analysis on big data
-## make sure necessary librariesare installed
+### Run Analysis on big data 
+### note : my script will create a single subdirectory on your local disk to carry-out the analysis...
+## make sure necessary libraries are installed
 if (!require("dplyr")) {
 install.packages("dplyr")
 }
